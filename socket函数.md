@@ -27,5 +27,5 @@ AF_INET 表示 IPv4 地址，例如 127.0.0.1；AF_INET6 表示 IPv6 地址，�
 `SOCKET sock = socket(AF_INET, SOCK_STREAM, 0); `
 
 
-#### 不同之处
+### 不同之处
 windows的返回值类型不同，是一个SOCKET 类型的句柄，linux中把socket看做文件，但windows不这么看   
